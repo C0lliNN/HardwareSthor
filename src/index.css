@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ant-carousel .slick-dots li {
+  width: 36px !important;
+  height: 6px !important;
+}
+
+.ant-carousel .slick-dots li button {
+  height: 100% !important;
+}
+
+.ant-carousel .slick-dots li button:hover {
+  background-color: rgba(48, 48, 48, 0.8) !important; 
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  background: #303030 !important;
+}
+
+.ant-drawer-title {
+  font-size: 22px !important;
+}

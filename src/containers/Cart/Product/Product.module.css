@@ -1,0 +1,27 @@
+.Product {
+    border: 1px solid #7e7d7d2c;
+    width: 100%;
+    margin: 10px auto;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+
+.Product img {
+    display: block;
+    width: 100%;
+}
+
+.Remove {
+    background-color: #DE3C4B;
+    border-color: #DE3C4B;
+    margin-top: 5px;
+}
+
+.Remove:hover,
+.Remove:active,
+.Remove:focus {
+    background-color: rgb(240, 68, 85);
+    border-color: rgb(240, 68, 85);
+}
+

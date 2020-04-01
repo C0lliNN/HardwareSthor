@@ -1,0 +1,39 @@
+.ProductItem {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.ProductItem h4 {
+    font-size: 1.2em;
+}
+
+.ProductItem > div {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.ImgHolder {
+    width: 100%;
+}
+
+.ImgHolder img {
+    display: block;
+    width: 100%;
+}
+
+.Link:hover h4{
+    color: #0BB0E7;
+}
+
+.BuyButton {
+    background-color: #02A844;
+    border-color: #02A844;
+}
+
+.BuyButton:hover,
+.BuyButton:focus,
+.BuyButton:active {
+    background-color: rgb(25, 196, 93);
+    border-color: rgb(25, 196, 93);
+}
+

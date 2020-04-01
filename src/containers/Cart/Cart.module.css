@@ -1,0 +1,25 @@
+.Cart {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.Cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.BuyNowDiv {
+    text-align: right;
+}
+
+.BuyNow {
+    background-color: #02A844;
+    border-color: #02A844;
+}
+
+.BuyNow:hover,
+.BuyNow:active,
+.BuyNow:focus {
+    background-color: rgb(25, 196, 93);
+    border-color: rgb(25, 196, 93);
+}

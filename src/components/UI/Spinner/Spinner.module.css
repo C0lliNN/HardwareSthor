@@ -1,0 +1,12 @@
+.Spinner {
+    margin: 40px auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Spinner p {
+    margin: 15px auto ;
+    font-size: 1.5em;
+    color: rgb(19, 152, 192)
+}

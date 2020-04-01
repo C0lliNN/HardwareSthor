@@ -1,0 +1,34 @@
+.SearchBar {
+    width: 100%;
+}
+
+.Input {
+    float: left;
+    width: 70%;
+}
+
+.Input:focus {
+    border-color: rgba(42, 45, 52, 0.5);
+}
+.Input:hover {
+    border-color: rgba(42, 45, 52, 0.5);
+}
+
+.SearchButton {
+    display: block;
+    float: left;
+    width: 30%;
+    background-color: rgb(42, 45, 52);
+    border-color: rgb(42, 45, 52);
+}
+
+.SearchButton:hover {
+    background-color: rgb(52, 56, 65);
+    border-color: rgb(52, 56, 65);
+}
+
+@media(min-width: 992px) {
+    .SearchButton {
+        width: 15%;
+    }
+}
