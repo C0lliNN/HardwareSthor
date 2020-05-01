@@ -1,5 +1,3 @@
-# HardwareSThor
-
 ## Overview
 
 A Hardware e-commerce developed fully in React with self-learning purposes. All the products' data was scrapped from [newegg](https://www.newegg.com/) and [Kabum](https://www.kabum.com.br/) using Python/[Scrapy](https://scrapy.org/)
