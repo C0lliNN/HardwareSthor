@@ -1,12 +1,12 @@
-.Category {
-    width: 80%;
-    margin: 20px auto;
+.Category > div {
+  width: 80%;
+  margin: 20px auto;
 }
 
 .Products {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px 0px;
-    background-color: white;
-    box-shadow: 0px 0px 1px rgba(48, 48, 48, 0.4);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 0px;
+  background-color: white;
+  box-shadow: 0px 0px 1px rgba(48, 48, 48, 0.4);
 }

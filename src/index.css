@@ -12,17 +12,25 @@ code {
     monospace;
 }
 
-.ant-carousel .slick-dots li {
-  width: 36px !important;
-  height: 6px !important;
+.ant-carousel .slick-dots li,
+.ant-carousel .slick-dots li.slick-active {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 100% !important;
 }
 
 .ant-carousel .slick-dots li button {
   height: 100% !important;
+  border-radius: 100% !important;
 }
 
-.ant-carousel .slick-dots li button:hover {
-  background-color: rgba(48, 48, 48, 0.8) !important; 
+.ant-carousel .slick-dots li button:hover,
+.ant-carousel .slick-dots li button:active {
+  background-color: rgba(48, 48, 48, 0.1) !important;
+}
+
+.ant-carousel .slick-dots li button:focus {
+  background-color: rgba(48, 48, 48, 0.1) !important;
 }
 
 .ant-carousel .slick-dots li.slick-active button {
@@ -31,4 +39,15 @@ code {
 
 .ant-drawer-title {
   font-size: 22px !important;
+}
+
+.ant-badge {
+  margin-right: 10px !important;
+}
+
+.ant-tabs-tab {
+  text-align: center !important;
+  font-size: 1.5em !important;
+  height: 50px !important;
+  border-width: 2px !important;
 }

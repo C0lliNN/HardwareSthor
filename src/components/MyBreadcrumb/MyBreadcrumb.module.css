@@ -1,0 +1,22 @@
+.NavigationItem {
+  display: inline;
+}
+
+.NavigationItem,
+.Link {
+  color: #303030 !important;
+}
+
+.Link,
+.Icon {
+  font-size: 1.4em !important;
+}
+
+.Icon {
+  transition: color 0.3s;
+}
+
+.NavigationItem:hover,
+.NavigationItem:hover .Link {
+  color: #0bb3e7 !important;
+}

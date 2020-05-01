@@ -1,0 +1,13 @@
+.LinkList {
+  height: 100%;
+  margin: 10px auto;
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+@media (min-width: 850px) {
+  .LinkList {
+    text-align: right;
+  }
+}

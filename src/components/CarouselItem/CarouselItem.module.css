@@ -1,114 +1,89 @@
 .CarouselItem {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    padding-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 50px;
 }
 
 .CarouselItem h2 {
-    text-align: center;
-    color: #2A2D34;
-    font-size: 1.8em;
+  text-align: center;
+  color: #2a2d34;
+  font-size: 1.5em;
 }
 
 .ImgBox {
-    width: 60%;
-    margin: 30px auto;
-    box-sizing: border-box;
+  width: 50%;
+  margin: 15px auto;
+  box-sizing: border-box;
 }
 
 .PriceBox {
-    width: 100%;
-    margin: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .ImgBox img {
-    display: block;
-    width: 100%;
-    margin: auto;
+  display: block;
+  width: 100%;
+  min-width: 200px;
+  margin: auto;
 }
 
-.DiscountPrice {
-    color: #02A844;
-    font-weight: bold;
-    font-size: 2.8em;
-    text-align: center;
-    margin-bottom: 0;
+.CarouselItem .DiscountPrice {
+  color: #02a844;
+  font-weight: bold;
+  font-size: 2.8em;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .InCash {
-    text-align: center;
-    margin-left: 5px;
-    font-size: 1.4em;
+  text-align: center;
+  margin-left: 5px;
+  font-size: 1.4em;
+  margin-bottom: 0 !important;
 }
 
-.TotalPrice {
-    color: #10a5e8;
-    font-size: 2.3em;
-    text-align: center;
-    margin-bottom: 0;
+.CarouselItem .TotalPrice {
+  color: #10a5e8;
+  font-size: 2.3em;
+  text-align: center;
+  margin-top: 0.6em !important;
+  margin-bottom: 0 !important;
 }
 
 .InInstallments {
-    text-align: center;
-    margin-left: 5px;
-    font-size: 1.3em;
+  text-align: center;
+  margin-left: 5px;
+  font-size: 1.3em;
 }
 
 .ButtonBox {
-    text-align: center;
+  text-align: center;
 }
 
 .ButtonBox div {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .ButtonBox div button {
-    width: 150px;
+  width: 150px;
 }
 
 .BuyButton {
-    background-color: #02A844;
-    border-color: #02A844;
+  background-color: #02a844;
+  border-color: #02a844;
 }
 
 .BuyButton:hover,
 .BuyButton:focus,
 .BuyButton:active {
-    background-color: rgb(25, 196, 93);
-    border-color: rgb(25, 196, 93);
+  background-color: rgb(25, 196, 93);
+  border-color: rgb(25, 196, 93);
 }
 
-@media(min-width: 992px) {
-
-    .DiscountPrice {
-        text-align: right;
-        margin-bottom: 0;
-    }
-
-    .InCash {
-        text-align: left;
-        margin-bottom: 0;
-    }
-
-    .TotalPrice {
-        text-align: right; 
-        margin-bottom: 0;
-        padding-right: 25px;
-    }
-    
-    .InInstallments {
-        text-align: left;
-        margin-bottom: 0;
-    }
-
-    .ImgBox {
-        width: 400px;
-    }
-}
-
-@media(min-width: 1200px) {
-    .ImgBox {
-        width: 500px;
-    }
+@media (min-width: 1200px) {
+  .ImgBox {
+    width: 500px;
+  }
 }

@@ -1,0 +1,23 @@
+.OrderDetails h2 {
+  font-size: 1.9em;
+}
+
+.Paragraph {
+  margin-left: 5%;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.Paragraph span {
+  font-weight: normal;
+}
+
+@media (max-width: 850px) {
+  .OrderDetails h2 {
+    font-size: 1.4em;
+  }
+
+  .Paragraph {
+    font-size: 1.1em;
+  }
+}

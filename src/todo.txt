@@ -1,2 +1,0 @@
-1 - SearchBar
-2 - Firebase

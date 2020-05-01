@@ -1,0 +1,132 @@
+.Product {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.FirstCard {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+
+  padding: 20px;
+  overflow: auto;
+  zoom: 1;
+}
+
+.Product h2 {
+  text-align: center;
+  font-size: 1.9em;
+  font-weight: 500;
+}
+
+.Product .ImgHolder {
+  width: 40%;
+  margin: auto;
+  float: left;
+}
+
+.ImgHolder img {
+  display: block;
+  width: 100%;
+}
+
+.Product .Info {
+  margin-top: 8%;
+  width: 55%;
+  margin-left: 3%;
+  float: left;
+}
+
+.Product .PaymentMethod {
+  overflow: auto;
+  zoom: 1;
+}
+
+.Product .PaymentMethod .IconContainer {
+  width: 15%;
+  text-align: center;
+  float: left;
+}
+
+.Icon {
+  color: #10a5e8;
+  font-size: 2.2em;
+}
+
+.Product .PaymentMethod .Value {
+  color: #10a5e8;
+  width: 75%;
+  float: left;
+}
+
+.Product .PaymentMethod .Value p {
+  font-size: 1.6em;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.Quantity {
+  margin-top: 20px;
+  margin-left: 3%;
+}
+
+.Quantity label {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.ButtonContainer {
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 3%;
+}
+
+.Button {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  background-color: #02a844;
+  border-color: #02a844;
+}
+
+.Button:hover,
+.Button:active,
+.Button:focus {
+  background-color: rgb(2, 189, 76);
+  border-color: rgb(2, 189, 76);
+}
+
+.Green {
+  color: #02a844 !important;
+}
+
+.Text {
+  color: #787878;
+}
+
+@media (max-width: 992px) {
+  .Product .ImgHolder {
+    float: none;
+    width: 60%;
+  }
+
+  .Product h2 {
+    font-size: 1.6em;
+  }
+
+  .Product .Info {
+    float: none;
+    width: 100%;
+  }
+  .Quantity,
+  .ButtonContainer,
+  .Product .Info {
+    margin-left: 0;
+  }
+
+  .Button {
+    margin: auto;
+  }
+}

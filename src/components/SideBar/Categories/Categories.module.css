@@ -1,4 +1,11 @@
 .Categories {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.ErrorContainer {
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+  font-size: 1.2em;
 }

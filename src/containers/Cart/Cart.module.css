@@ -1,25 +1,31 @@
 .Cart {
-    width: 80%;
-    margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
 }
 
 .Cart ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .BuyNowDiv {
-    text-align: right;
+  text-align: right;
 }
 
 .BuyNow {
-    background-color: #02A844;
-    border-color: #02A844;
+  background-color: #02a844;
+  border-color: #02a844;
+}
+
+.Empty {
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .BuyNow:hover,
 .BuyNow:active,
 .BuyNow:focus {
-    background-color: rgb(25, 196, 93);
-    border-color: rgb(25, 196, 93);
+  background-color: rgb(25, 196, 93);
+  border-color: rgb(25, 196, 93);
 }

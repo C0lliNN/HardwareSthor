@@ -1,0 +1,38 @@
+.Order {
+  width: 100%;
+  border-bottom: 1px solid #d6d6d6;
+  margin: auto;
+  padding: 20px;
+}
+
+.Order:hover {
+  background-color: #f5f5f5;
+}
+
+.Order h3 {
+  font-size: 1.3em;
+  color: #6b6b6b;
+}
+
+.Order .Total {
+  margin-top: 15px;
+  color: #303030;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.Order .Price {
+  font-weight: bold;
+  color: green;
+}
+
+.Order .Date {
+  margin-top: 15px;
+  color: #303030;
+  font-size: 1.2em;
+}
+
+.Order .Date span {
+  font-weight: 500;
+  color: rgb(148, 148, 148);
+}

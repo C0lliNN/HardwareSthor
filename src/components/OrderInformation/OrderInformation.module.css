@@ -1,0 +1,19 @@
+.OrderInformation {
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.Product div,
+.TotalPrice {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: rgb(95, 95, 95);
+}
+
+.Product span,
+.TotalPrice span {
+  font-weight: bold;
+  color: #02a844;
+}

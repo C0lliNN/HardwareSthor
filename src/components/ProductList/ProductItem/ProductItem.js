@@ -1,38 +1,46 @@
-import React from 'react'
-import classes from './ProductItem.module.css'
-import { Button } from 'antd'
-import { NavLink } from 'react-router-dom';
-import { FormattedMessage } from 'react-intl';
+import React from "react";
+import classes from "./ProductItem.module.css";
+import { NavLink, withRouter } from "react-router-dom";
+import { FormattedMessage } from "react-intl";
 
-const ProductItem = props => (
-    <article className={classes.ProductItem}>
-        {console.log(props)}
-        <NavLink 
-            to={"/product/" + props.id}
-            className={classes.Link}>
-            <h4>{props.title}</h4>
-            <div className={classes.ImgHolder}>
-                <img src={props.img} alt={props.title}/>
-            </div>
-        </NavLink>
-        <div>
-            <Button
-                type="primary"
-                className={classes.BuyButton}>
-                    <FormattedMessage
-                        id="CarouselItem.Buy"
-                        defaultMessage="Buy"/>
-            </Button>
-        </div>
-        <div>
-            <Button
-                type="primary">
-                    <FormattedMessage
-                        id="CarouselItem.Details"
-                        defaultMessage="Details"/>
-            </Button>
-        </div>
-    </article>
-);
+import { Typography } from "antd";
 
-export default ProductItem;
+const { Title } = Typography;
+
+const ProductItem = (props) => {
+  const imgHolderStyle = {};
+
+  if (props.imgHolderWidth) {
+    imgHolderStyle.width = props.imgHolderWidth;
+  } else {
+    imgHolderStyle.width = "30%";
+  }
+
+  return (
+    <NavLink
+      to={
+        props.link
+          ? props.link
+          : `${props.match.params.category}/product/${props.id}`
+      }
+      className={classes.Link}
+    >
+      <article className={classes.ProductItem}>
+        <div className={classes.ImgHolder} style={imgHolderStyle}>
+          <img src={props.img} alt={props.title} />
+        </div>
+
+        <div className={classes.ProductInfo}>
+          <Title level={4}>{props.title}</Title>
+
+          <Title level={4} className={classes.Price}>
+            <FormattedMessage id="CarouselItem.Currency" defaultMessage="$" />
+            {props.totalPrice.toFixed(2)}
+          </Title>
+        </div>
+      </article>
+    </NavLink>
+  );
+};
+
+export default withRouter(ProductItem);

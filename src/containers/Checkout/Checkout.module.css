@@ -1,0 +1,21 @@
+.Checkout {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.DefaultSteps {
+  display: none;
+}
+
+.SmallSteps {
+  display: block;
+}
+
+@media (min-width: 850px) {
+  .DefaultSteps {
+    display: block;
+  }
+  .SmallSteps {
+    display: none;
+  }
+}

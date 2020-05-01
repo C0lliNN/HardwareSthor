@@ -1,0 +1,34 @@
+.Navigation {
+  text-align: right;
+}
+
+.Hamburger {
+  display: inline;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.Hamburger .Icon {
+  font-size: 35px;
+  color: rgb(248, 248, 248);
+  transition: color 0.2s ease-in-out;
+}
+
+.Hamburger:hover .Icon {
+  color: #303030;
+}
+
+.HorizontalMenu {
+  display: none;
+}
+
+@media (min-width: 850px) {
+  .Hamburger {
+    display: none;
+  }
+  .HorizontalMenu {
+    display: block;
+  }
+}

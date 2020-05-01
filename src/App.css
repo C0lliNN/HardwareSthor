@@ -2,5 +2,9 @@
 
 .App,
 body {
-    background: linear-gradient(90deg, rgba(245,244,244,1) 0%, rgba(247,247,247,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 244, 244, 1) 0%,
+    rgba(247, 247, 247, 1) 100%
+  );
 }

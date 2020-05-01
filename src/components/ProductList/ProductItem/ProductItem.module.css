@@ -1,39 +1,68 @@
 .ProductItem {
-    width: 200px;
-    margin: 20px auto;
+  width: 100%;
+  margin: 10px auto;
+  background-color: white;
+  overflow: auto;
+  zoom: 1;
+  border-bottom: 1px solid rgba(173, 173, 173, 0.3);
+  transition: 0.4s background-color ease-in;
+}
+
+.ProductInfo {
+  margin-top: 4%;
+  margin-right: 1%;
+  width: 65%;
+  float: left;
 }
 
 .ProductItem h4 {
-    font-size: 1.2em;
+  font-size: 0.9em;
+  transition: 0.2s color ease-in-out;
 }
 
-.ProductItem > div {
-    text-align: center;
-    margin: 10px auto;
+.Price {
+  color: #02a844 !important;
+  font-size: 1em !important;
 }
 
 .ImgHolder {
-    width: 100%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .ImgHolder img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
-.Link:hover h4{
-    color: #0BB0E7;
+.Link:hover h4 {
+  color: #0bb0e7;
 }
 
-.BuyButton {
-    background-color: #02A844;
-    border-color: #02A844;
+@media (min-width: 650px) {
+  .ProductItem h4 {
+    font-size: 1em;
+  }
+  .ProductItem h5 {
+    font-size: 1.29em;
+  }
 }
 
-.BuyButton:hover,
-.BuyButton:focus,
-.BuyButton:active {
-    background-color: rgb(25, 196, 93);
-    border-color: rgb(25, 196, 93);
+@media (min-width: 900px) {
+  .ProductItem h4 {
+    font-size: 1.1em;
+  }
+  .ProductItem h5 {
+    font-size: 1.2em;
+  }
 }
 
+@media (min-width: 1500px) {
+  .ProductItem h4 {
+    font-size: 1.2em;
+  }
+  .ProductItem h5 {
+    font-size: 1.3em;
+  }
+}

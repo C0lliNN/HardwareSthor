@@ -1,0 +1,13 @@
+.ErrorMessage {
+  padding: 10px;
+}
+
+.ErrorMessage h4 {
+  color: red;
+  font-size: 1.4em;
+}
+
+.ErrorMessage .Message {
+  color: red;
+  font-size: 1.1em;
+}
